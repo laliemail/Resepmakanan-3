@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">ResepMakan</string>
+
+    <string name="judul_item">Judul</string>
+    <string name="dekripsi_item">Deksripsi</string>
+
+    <string-array name="judul_item">
+        <item>ayam gepprek</item>
+        <item>sop kakap</item>
+    </string-array>
+
+    <string-array name="deskripsi_item">
+        <item>
+            salah satu makanan enak, diambil dari dagig ayam yan di goreng habis itu di geprek dengan cabai
+        </item>
+
+        <item>
+            sop kakap makanan asal semarang dengan kuah kaldu dari minyak ikan asli yang berdasarkan minyak ikan
+        </item>
+
+
+    </string-array>
+
+    <string-array name="bahan_bahan">
+        <item>
+            1. Bayam segar kurang lebih 2 ikat saja. Cuci bersih lalu petik dan buang bagian pangkalnya.\n
+            2. Buah tomat ukuran sedang besar kurang lebih sebanyak 1 pcs.\n
+            3. Bawang putih kurang lebih sebanyak 1 pcs saja. Kupas kulitnya lalu iris-iris tipis.\n
+            4. Jagung manis segar yang sudah dipotong potong sesuai selera kurang lebih sebanyak 1 pcs saja.\n
+            5. Gula pasir putih secukupnya sesuai selera.\n
+
+        </item>
+
+        <item>
+            1. Bawang merah ukuran sedang besar kurang lebih sebanyak 4 siung saja. Kupas kulit bawang merahnya lalu potong-potong supaya mudah saat akan diuleg nantinya.\n
+            2. Bawang putih ukuran sedang besar kurang lebih sebanyak 2 siung saja. Kupas kulit bawangnya lalu potong-potong supaya mudah saat akan diuleg nantinya.\n
+            3. Kaldu ayam bubuk kualitas bagus secukupnya sesuai selera. Gunakan yang berkualitas untuk menambah citarasa di kuah kaldunya.\n
+            4. Lada putih halus secukupnya sesuai selera.\n
+            5. Gula pasir putih secukupnya sesuai selera.\n
+            6. Garam dapur beryodium secukupnya sesuai selera.\n
+        </item>
+
+
+
+    </string-array>
+
+    <string-array name="cara_membuat">
+        <item>
+            1. Siapkan panci dan beri air secukupnya. Masak sampai mendidih.\n
+            2. Masukkan potongan jagung manisnya bersama dengan potongan jagung manisnya.\n
+            3. Aduk aduk sebentar dan masak sampai jagungnya hampir matang.\n
+            4. Masukkan sayuran bayam bersama irisan buah tomatnya dan kaldu instan ayam secukupnya. Aduk aduk sampai semua bahan tercampur rata.\n
+            5. Masukkan gula pasir dan garam dapur beryodium secukupnya sesuai selera dan aduk aduk kembali sampai semua bahan tercampur rata.\n
+            6. Setelah semua bahan matang, tes rasanya dan tambahkan kaldu, gula dan garam kalau diperlukan.\n
+            7. Angkat dan sajikan resep masakan sehari-hari yang sederhana ini saat masih hangat.\n
+
+        </item>
+
+        <item>
+            1. Langkah pertama cuci bersih sayap ayam yang akan digunakan dengan air mengalir sampai benar benar bersih dari kotoran.\n
+            2. Haluskan bumbu bumbu yang akan digunakan, seperti bawang merah, bawang putih, kaldu ayam, gula, garam dan lada sampai benar benar halus.\n
+            3. Siapkan wajan penggorengan dan beri minyak secukupnya. Masukkan bumbu sop yang sudah dihaluskan diatas lalu aduk aduk sampai tercium bau harum khas tumisannya.\n
+            4. Tuang air bersih yang sudah disiapkan sebelumnya lalu aduk aduk supaya tercampur dengan bumbunya sampai mendidih airnya.\n
+            5. Masukkan sayap ayam yang sudah dicuci bersih sebelumnya ke dalam wajan penggorengan diatas lalu masak sampai daging ayamnya matang dan empuk. Jangan lupa sesekali diaduk aduk supaya tercampur dengan bumbu lainnya.\n
+
+        </item>
+    </string-array>
+</resources>
