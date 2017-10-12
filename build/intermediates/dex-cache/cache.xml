@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\RN\Desktop\ResepMakan\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="8a8b5d3686e9042737fc2e2600bc3189a3f63a19">
-        <dex dex="C:\Users\RN\Desktop\ResepMakan\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b96eb1f47936a3adc3b12a714c69d2eb707aaa07\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\RN\Desktop\ResepMakan\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\RN\Desktop\ResepMakan\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7f04f73698523ba1e7f73ce49837971bfe1bc23a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\RN\Desktop\ResepMakan\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="76a1f8e9dca94e11279579b8678e20fe2dbfe1b1">
+        <dex dex="C:\Users\RN\Desktop\ResepMakan\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b96eb1f47936a3adc3b12a714c69d2eb707aaa07\classes.dex" />
     </item>
 
 </items>

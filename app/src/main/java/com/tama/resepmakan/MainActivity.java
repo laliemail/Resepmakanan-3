@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     int ImageSource[] = {
             R.drawable.ayam,
             R.drawable.sop,
+            R.drawable.sate,
     };
 
     item adapter;

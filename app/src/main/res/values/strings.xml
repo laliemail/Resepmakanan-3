@@ -7,6 +7,7 @@
     <string-array name="judul_item">
         <item>ayam gepprek</item>
         <item>sop kakap</item>
+        <item>Sate Madura</item>
     </string-array>
 
     <string-array name="deskripsi_item">
@@ -17,6 +18,8 @@
         <item>
             sop kakap makanan asal semarang dengan kuah kaldu dari minyak ikan asli yang berdasarkan minyak ikan
         </item>
+
+        <item>Sata madura bersal dari madura asli</item>
 
 
     </string-array>
@@ -38,6 +41,13 @@
             4. Lada putih halus secukupnya sesuai selera.\n
             5. Gula pasir putih secukupnya sesuai selera.\n
             6. Garam dapur beryodium secukupnya sesuai selera.\n
+        </item>
+
+        <item>
+            1.450 gram Daging Ayam
+            2.2 buah Jeruk Limo
+            3.75 ml Kecap Manis
+            4.1/4 sendok teh Garam
         </item>
 
 
@@ -63,6 +73,18 @@
             4. Tuang air bersih yang sudah disiapkan sebelumnya lalu aduk aduk supaya tercampur dengan bumbunya sampai mendidih airnya.\n
             5. Masukkan sayap ayam yang sudah dicuci bersih sebelumnya ke dalam wajan penggorengan diatas lalu masak sampai daging ayamnya matang dan empuk. Jangan lupa sesekali diaduk aduk supaya tercampur dengan bumbu lainnya.\n
 
+        </item>
+
+        <item>
+            1.Cuci bersih fillet ayam.
+            Potong tipis persegi panjang. masukan air jeruk nipis, aduk rata, kemudian masukkan kecap manis dan garam.
+            Diamkan sebentar agar bumbu meresap.
+
+            2.MEMBUAT MINYAK OLESAN AYAM :
+            Campur minyak, ketumbar dan bawang putih, masak dengan api kecil sampai bawang putih menguning.
+            Angkat dan dinginkan, saring dan ambil minyaknya saja
+            Tusuk-tusuk sate.
+            Sebelum dibakar,oleskan pada minyak olesan ayam
         </item>
     </string-array>
 </resources>
