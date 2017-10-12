@@ -21,31 +21,27 @@ public class item extends RecyclerView.Adapter<item.ItemHolder>{
     String judul[],deskripsi[],bahan[],pembuatan[];
     int img[];
 
-    public item(Context context, String j[],String d[], String b[], String p[], int img_[]) {
+    public item(Context context, String juduls[],String des[], String bahans[], String pembuatans[], int imgs[]) {
         this.context = context;
-        this.judul = j;
-        this.deskripsi = d;
-        this.bahan = b;
-        this.pembuatan = p;
-        this.img = img_;
+        this.judul = juduls;
+        this.deskripsi = des;
+        this.bahan = bahans;
+        this.pembuatan = pembuatans;
+        this.img = imgs;
     }
-
     @Override
     public ItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.rows,null);
         return new ItemHolder(v);
     }
-
     @Override
     public void onBindViewHolder(final ItemHolder holder, final int position) {
         holder.textJudul.setText(judul[position]);
         holder.textDeskripsi.setText(deskripsi[position]);
         holder.img_item.setImageResource(img[position]);
-
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent i = new Intent(v.getContext(),Detail.class);
                 i.putExtra("id_img", img[position]);
                 i.putExtra("id_judul", judul[position]);
@@ -63,19 +59,12 @@ public class item extends RecyclerView.Adapter<item.ItemHolder>{
     }
 
     class ItemHolder extends RecyclerView.ViewHolder{
-
-        /*
-        Class ini digunakan untuk mengambil data sebuah variabel untuk object dengan id tertentu
-         */
-
-        //Deklarasi Variabel
         CardView cardView;
         ImageView img_item;
         TextView textJudul, textDeskripsi;
-
+        
         public ItemHolder(View v) {
             super(v);
-
             img_item = (ImageView) v.findViewById(R.id.img_makanan);
             textJudul = (TextView) v.findViewById(R.id.text_judul);
             textDeskripsi = (TextView) v.findViewById(R.id.text_deskripsi);
