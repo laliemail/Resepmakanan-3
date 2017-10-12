@@ -11,16 +11,13 @@ import android.widget.TextView;
 
 public class Detail extends AppCompatActivity {
 
-    //Deklarasi Variabel
     ImageView imgDetail;
     TextView txtJudul, txtDeskripsi, txtBahan, txtPembuatan;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detail);
-
         imgDetail = (ImageView) findViewById(R.id.img_detail_makan);
         txtJudul = (TextView) findViewById(R.id.text_detail_judul);
         txtDeskripsi = (TextView) findViewById(R.id.text_detail_deskripsi);
@@ -28,7 +25,6 @@ public class Detail extends AppCompatActivity {
         txtPembuatan = (TextView) findViewById(R.id.text_detail_pembuatan);
         getData();
     }
-
     private void getData(){
         txtJudul.setText(getIntent().getStringExtra("id_judul"));
         txtDeskripsi.setText(getIntent().getStringExtra("id_deskripsi"));
@@ -36,5 +32,4 @@ public class Detail extends AppCompatActivity {
         txtBahan.setText(getIntent().getStringExtra("id_bahan"));
         txtPembuatan.setText(getIntent().getStringExtra("id_pembuatan"));
     }
-
 }
